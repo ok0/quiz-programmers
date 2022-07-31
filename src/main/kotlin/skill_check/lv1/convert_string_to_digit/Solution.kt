@@ -21,7 +21,7 @@ class Solution {
   }
 
   fun solution(s: String): Int {
-    var answer = StringBuilder()
+    val answer = StringBuilder()
     val word = StringBuilder()
     s.forEach { c ->
       if (c.isDigit()) {
