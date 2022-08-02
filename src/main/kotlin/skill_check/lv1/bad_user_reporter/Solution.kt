@@ -1,9 +1,10 @@
 package skill_check.lv1.bad_user_reporter
 
-/*
-* https://school.programmers.co.kr/learn/courses/30/lessons/92334
-*
-* */
+
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/92334
+ *
+ * */
 class Solution {
   fun solution(id_list: Array<String>, report: Array<String>, k: Int): IntArray {
     val answer = id_list.associateWith { 0 }.toMutableMap()

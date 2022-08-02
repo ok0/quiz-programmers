@@ -2,10 +2,10 @@ package skill_check.lv1.claw_crane
 
 import java.util.*
 
-/*
-* https://school.programmers.co.kr/learn/courses/30/lessons/64061
-*
-* */
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/64061
+ *
+ * */
 class Solution {
   fun solution(board: Array<IntArray>, moves: IntArray): Int {
     var answer = 0

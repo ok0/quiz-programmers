@@ -1,9 +1,9 @@
 package skill_check.lv1.convert_string_to_digit
 
-/*
-* https://school.programmers.co.kr/learn/courses/30/lessons/81301
-*
-* */
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/81301
+ *
+ * */
 class Solution {
   companion object {
     val stringToDigit = mapOf(

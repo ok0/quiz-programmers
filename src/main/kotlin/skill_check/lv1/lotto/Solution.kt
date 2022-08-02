@@ -1,9 +1,9 @@
 package skill_check.lv1.lotto
 
-/*
-* https://school.programmers.co.kr/learn/courses/30/lessons/77484#fn1
-*
-* */
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/77484#fn1
+ *
+ * */
 class Solution {
   fun solution(lottos: IntArray, win_nums: IntArray): IntArray {
     fun rank(matched: Int) = if (matched < 2) 6 else 7 - matched

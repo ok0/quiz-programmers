@@ -1,9 +1,9 @@
 package skill_check.lv1.press_keypad
 
-/*
-* https://school.programmers.co.kr/learn/courses/30/lessons/67256
-*
-* */
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/67256
+ *
+ * */
 class Solution {
   companion object {
     const val HAND_LEFT = "left"
@@ -16,7 +16,6 @@ class Solution {
       4 to arrayOf(0, 2), 5 to arrayOf(1, 2), 6 to arrayOf(2, 2),
       7 to arrayOf(0, 1), 8 to arrayOf(1, 1), 9 to arrayOf(2, 1),
                           0 to arrayOf(1, 0),
-      //'*' to arrayOf(0, 0), 0 to arrayOf(1, 0), '#' to arrayOf(2, 0),
     )
   }
 
