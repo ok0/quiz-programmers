@@ -1,0 +1,15 @@
+-- https://school.programmers.co.kr/learn/courses/30/lessons/59042
+-- 코드를 입력하세요
+SELECT
+    `ANIMAL_OUTS`.ANIMAL_ID, `ANIMAL_OUTS`.NAME
+FROM (
+        SELECT
+            DISTINCT ANIMAL_ID AS ANIMAL_ID, NAME
+        FROM
+            ANIMAL_OUTS
+    ) AS ANIMAL_OUTS
+    LEFT OUTER JOIN ANIMAL_INS
+    ON `ANIMAL_OUTS`.ANIMAL_ID = `ANIMAL_INS`.ANIMAL_ID
+WHERE
+    `ANIMAL_INS`.ANIMAL_ID IS NULL
+;
