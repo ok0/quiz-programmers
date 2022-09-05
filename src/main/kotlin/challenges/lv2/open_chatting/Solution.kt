@@ -32,7 +32,7 @@ class Solution {
         user[split[1]] = split[2]
       }
     }
-
+// userIO.forEachIndexed()
     return userIO.mapIndexed { idx, userID ->
       IOType.toOutput(user[userID] ?: "", typeIO[idx])
     }.toTypedArray()
