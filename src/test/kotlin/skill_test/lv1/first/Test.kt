@@ -1,4 +1,4 @@
-package sc.lv1.first
+package skill_test.lv1.first
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

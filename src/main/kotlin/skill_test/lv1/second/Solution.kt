@@ -1,4 +1,4 @@
-package sc.lv1.second
+package skill_test.lv1.second
 
 class Solution {
   fun solution(price: Int, money: Int, count: Int): Long {

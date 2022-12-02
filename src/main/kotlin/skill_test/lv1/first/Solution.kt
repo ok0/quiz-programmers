@@ -1,4 +1,4 @@
-package sc.lv1.first
+package skill_test.lv1.first
 
 class Solution {
   fun solution(lottos: IntArray, win_nums: IntArray): IntArray {
